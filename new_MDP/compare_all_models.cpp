@@ -144,8 +144,6 @@ int main(int argc, char *argv[])
             */
         }
         }//just to test the same model results
-
-    return 0;
     for (int i=0; i < 5; i++){
         for (int j =0; j < horizon.size(); j++){
             cout << "(" << horizon[j] << "," << total_rewards_results[i][j]  << ")";
