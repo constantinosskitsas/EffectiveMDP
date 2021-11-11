@@ -56,7 +56,7 @@ SIZE_T getValue(){
     char line[128];
 
     while (fgets(line, 128, file) != NULL){
-        if (strncmp(line, "VmRSS:", 6) == 0){
+        if (strncmp(line, VmSize:", 7) == 0){
             result = parseLine(line);
             break;
         }
